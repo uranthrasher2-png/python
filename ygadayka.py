@@ -29,4 +29,4 @@ while True:
         print('Вы угадали, поздравляем!')
         print('Спасибо, что играли в числовую угадайку. Еще увидимся...')
         break
-print('Change2')
+print('CHange')
