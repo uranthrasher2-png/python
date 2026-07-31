@@ -9,11 +9,14 @@ def choice(something):
         return random.choice(something)
 
 
-while again.lower() == 'да'::
-    again = input('Хотите задать еще вопрос? (да или нет): ') 
-        print('Задайте свой вопрос:')
-        question = input()
-        print('Думаю...')
-        print(choice(answers))
-        print('Возвращайся, если возникнут вопросы!')
+while True:
+    print('Задайте свой вопрос:')
+    question = input()
+    print('Думаю...')
+    print(choice(answers))
+    if input('Хотите задать еще вопрос? (да или нет): ') = input().lower() == 'да':
+        continue  
+    else:
+     print('Возвращайся, если возникнут вопросы!')
+        break
 
