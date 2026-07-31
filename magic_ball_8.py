@@ -3,15 +3,17 @@ answers = ["Бесспорно", "Предрешено", "Никаких сом�
 print('Привет Мир, я магический шар, и я знаю ответ на любой твой вопрос.')
 print('Напишите ваше имя:')
 name = input().capitalize()
-print('Приветствую тебя, о' name)
+print('Приветствую тебя, о', name)
+
+def choice(something):
+        return random.choice(something)
 
 
+while again.lower() == 'да'::
+    again = input('Хотите задать еще вопрос? (д = да, н = нет): ') 
+        print('Задайте свой вопрос:')
+        question = input()
+        print('Думаю...')
+        print(choice(answers))
+        print('Возвращайся, если возникнут вопросы!')
 
-Целые числа (тип int);
-Переменные;
-Ввод / вывод данных (функции input() и print());
-Условный оператор (if/elif/else);
-Цикл while;
-Бесконечный цикл;
-Операторы break, continue;
-Работа с модулем random для генерации случайных чисел.
