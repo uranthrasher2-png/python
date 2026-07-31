@@ -10,7 +10,7 @@ def choice(something):
 
 
 while again.lower() == 'да'::
-    again = input('Хотите задать еще вопрос? (д = да, н = нет): ') 
+    again = input('Хотите задать еще вопрос? (да или нет): ') 
         print('Задайте свой вопрос:')
         question = input()
         print('Думаю...')
