@@ -1,5 +1,4 @@
 import random
-import time
 
 answers = [
     "Бесспорно", "Предрешено", "Никаких сомнений", "Определённо да",
@@ -22,7 +21,6 @@ while True:
         continue
 
     print('Думаю...')
-    time.sleep(1.2)
     print(random.choice(answers))
 
     again = input('Хотите задать еще вопрос? (да/нет): ').strip().lower()
