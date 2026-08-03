@@ -29,3 +29,4 @@ while True:
     else:
         print('Возвращайся, если возникнут вопросы!')
         break
+print('Alias')
