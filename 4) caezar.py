@@ -1,10 +1,10 @@
-purpose = input('Введите в поле - ш (шифровать) или д (дешифровать)').lower()
+purpose = input('Введите в поле - ш (шифровать) или д (дешифровать): ').lower()
 while purpose not in ('ш', 'д'):
-    language = input('Необходимо ввести в поле - ш (шифровать) или д (дешифровать)').lower()
+    purpose = input('Необходимо ввести в поле - ш (шифровать) или д (дешифровать): ').lower()
 
-language = input('Введите в поле - р (русский) или а (английский)').lower()
+language = input('Введите в поле - р (русский) или а (английский): ').lower()
 while language not in ('р', 'а'):
-    language = input('Необходимо ввести в поле - р (русский) или а (английский)').lower()
+    language = input('Необходимо ввести в поле - р (русский) или а (английский): ').lower()
 
 shift = input('Введите шаг сдвига цифрой (сдвиг вправо): ')
 while not shift.isdigit():
@@ -12,7 +12,7 @@ while not shift.isdigit():
 shift = int(shift)
 
 question = input('Введите текст для обработки: ')
-while not question.strip():  
+while not question.strip():
     question = input('Вы не ввели текст! Попробуйте снова: ')
 
 def caesar(question, shift, purpose, language):
